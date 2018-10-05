@@ -7,11 +7,11 @@ body{
 .wrapper{
     background-color: rgb(65, 65, 65);
     
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 400px 200px 200px 200px;
+    grid-template-rows: 100px 100px 400px 400px 400px 400px;
 
 
 }
@@ -54,18 +54,30 @@ a{
 .videoWrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
     grid-column: span 2;
+}
+.video{
+    padding: 5px;
+    border: 5px ridge white;
+}
+.videoTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 
 .bild{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
-    margin-left: 0;
+    
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid white;
 }
