@@ -35,6 +35,8 @@ nav{
     justify-content: center;
     align-items: center;
     grid-column: span 2;
+    position: sticky;
+    top: 0;
 }
 
 h1{
@@ -80,4 +82,11 @@ img{
     width: 350px;
     height: 350px;
     border: 5px solid white;
+}
+
+.articleWrapper{
+    
+width: 80vw;
+height: 100%;
+
 }
