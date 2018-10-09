@@ -84,9 +84,33 @@ img{
     border: 5px solid white;
 }
 
-.articleWrapper{
-    
-width: 80vw;
-height: 100%;
 
+
+.wrapperWiki{
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    height: 100%;
+
+    
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px auto;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.articleWrapper{
+    background-color: rgb(100, 100, 100);
+    grid-column: span 2;
+    width: 85%;
+    height: 100%;
+    justify-self: center;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+article{
+    color:white;
+    margin: 5px;
 }
