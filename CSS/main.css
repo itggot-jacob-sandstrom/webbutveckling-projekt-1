@@ -89,7 +89,7 @@ img{
 .wrapperWiki{
     background-color: rgb(65, 65, 65);
     width: 100%;
-    height: 100%;
+    height: auto;
 
     
 
@@ -112,5 +112,11 @@ img{
 
 article{
     color:white;
-    margin: 5px;
+    margin: 10px;
+    border-bottom:1px solid black;
+}
+
+h2{
+border-bottom: 1px solid rgb(70, 70, 70);
+margin-top: 30px;
 }
