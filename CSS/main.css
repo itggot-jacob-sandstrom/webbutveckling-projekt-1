@@ -75,6 +75,7 @@ a{
     height: 100px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* align-items: center;  */
 }
 .bild{
