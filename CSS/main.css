@@ -11,7 +11,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 400px 400px 100px;
+    grid-template-rows: 100px 70px 400px auto 100px;
 
 
 }
@@ -19,7 +19,7 @@ body{
 
 header{
     background-color: aqua;
-    height: 100px;
+    
 
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ header{
 
 nav{
     background-color: rgb(15, 163, 163);
-    height: 100px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,16 +73,17 @@ h1{
 
 .bilder{
     grid-column: span 2;
-    height: 100px;
+    
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
-    /* align-items: center;  */
+    
 }
 .bild{
     
-    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 .LennartPic{
