@@ -103,7 +103,7 @@ h1{
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100px 100px auto 100px;
+    grid-template-rows: 100px 70px auto 100px;
 }
 .articleWrapper{
     background-color: rgb(100, 100, 100);
