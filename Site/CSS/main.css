@@ -16,6 +16,16 @@ body{
 
 }
 
+.MerchWrapper{
+    background-color: rgb(65, 65, 65);
+    
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 70px auto 100px;
+}
+
 
 header{
     background-color: aqua;
@@ -37,6 +47,8 @@ nav{
     grid-column: span 2;
     position: sticky;
     top: 0;
+
+    z-index: 2;
 }
 
 h1{
@@ -86,12 +98,33 @@ h1{
     margin-bottom: 15px;
     
 }
+.bild:hover{
+transform: scale(1.02)    
+}
 .LennartPic{
     width: 350px;
     height: 350px;
     border: 5px solid white;
 }
 
+.merch{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px 50px;
+    border: 5px solid rgb(112, 112, 112);
+    margin:10px;
+}
+.merchpic{
+    width: 350px;
+    height: 350px;
+}
+.bildtext{
+    color: white;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin:10px;
+}
 
 
 .wrapperWiki{
@@ -127,7 +160,7 @@ margin-top: 30px;
 a.anchor {
     display: block;
     position: relative;
-    top: -130px;
+    top: -110px;
     visibility: hidden;
 }
 
@@ -158,3 +191,6 @@ footer{
     height:50px;
 }
 
+.liHeading{
+    color: white;
+}
