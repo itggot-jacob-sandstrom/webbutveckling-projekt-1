@@ -176,7 +176,7 @@ a.anchor {
 }
 
 footer{
-    background-color: grey;
+    background-color:#435870;
     grid-column: span 2;
     display: flex;
     align-items: center;
