@@ -2,10 +2,12 @@ body{
     height: 100vh;
     margin: 0;
 }
-
+.wrappercolor{
+    background-color: rgb(65, 65, 65);
+}
 
 .wrapper{
-    background-color: rgb(65, 65, 65);
+
     
     height: auto;
     width: 100%;
@@ -17,7 +19,7 @@ body{
 }
 
 .MerchWrapper{
-    background-color: rgb(65, 65, 65);
+
     
     height: auto;
     width: 100%;
@@ -100,8 +102,9 @@ h1{
     
 }
 .bild:hover{
-transform: scale(1.02)    
+    transform: scale(1.02)    
 }
+
 .LennartPic{
     width: 350px;
     height: 350px;
@@ -129,7 +132,6 @@ transform: scale(1.02)
 
 
 .wrapperWiki{
-    background-color: rgb(65, 65, 65);
     width: 100%;
     height: auto;
 
@@ -155,8 +157,8 @@ article{
 }
 
 h2{
-border-bottom: 1px solid rgb(70, 70, 70);
-margin-top: 30px;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    margin-top: 30px;
 }
 a.anchor {
     display: block;
